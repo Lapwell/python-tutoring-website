@@ -29,36 +29,35 @@ export default function Home() {
             </Navbar.Section>
           </Group>
         </Navbar>
-        <Space h='16vh' />
+        <Space h='12vh' />
 
         <Center>
           <SimpleGrid cols={2}>
             <Container>
-              <h3>About My Service</h3>
+              <h3>About My Service!</h3>
               <Text>
                 My service is about helping you learn the basics and fundamentals of coding in a chill, relaxed environment.
                 What are variables? What are functions? What the heck is a Class!? I will help you learn what these are through fun little projects using Python!
                 <br/><br/>
-                Python is an easy to read and write coding language, it's basically English! What you learn with me using Python can be applied
-                to any other language you learn in the future, giving you a solid boost to your future with coding.
+                Python is an easy to read and write coding language, it's basically English! What you learn with me using Python can be applied to other
+                coding languages, or help you understand our ever increasing digital world!
                 <br/><br/>
-                No previous experience required. You will need a your own laptop.
+                You will need a own laptop, and I will help set up needed software.
               </Text>
             </Container>
             <Container>
-              <h3>About Myself</h3>
-              <Image src="temp-profile.jpg" alt="Photo of me" width={100} height={100}/>
+              <Image src="profilepic.jpg" alt="Photo of me" width={152} height={152} radius="md"/>
+              <h3>Hello! I'm Byron,</h3>
               <Text>
-                Hello, I'm Byron! I'm a local, born here on the island in the Westshore area. I work for a local tech company that teaches kids programming and STEM
-                while I pursue education and personal goals.
-                <br/> <br/>
-                My passion and interests are in computers, science and games. I have been self-teaching coding for about 2 years now.
-                I look forward to helping others start their journey with programming!
+                I'm a local born here in the Westshore area. I work at an awesome local tech company that teaches kids programming and STEM
+                while pursuing education and personal goals in life. My passions and interests revolve around computers, science, video games and technology in general.
+                <br/><br/>
+                I have been self-teaching coding for 2 years now, and have some projects under my belt. I'm looking to sharpen my skills by helping
+                those in the community either start their coding journey, or better understand the coding spehere.
               </Text>
             </Container>
           </SimpleGrid>
         </Center>
-
       </main>
     </>
   );

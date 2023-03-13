@@ -7,6 +7,11 @@
   white-space: pre-line;
 }
 
+.mantine-Text-root.mantine-ljqvxq {
+  float: left;
+  color: red;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
