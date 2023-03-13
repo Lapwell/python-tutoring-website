@@ -1,6 +1,5 @@
 import type { AppProps } from 'next/app'
 import {MantineProvider} from'@mantine/core'
-import '@/styles/globals.css'
 import Head from 'next/head'
 
 export default function App(props: AppProps) {
@@ -15,8 +14,19 @@ export default function App(props: AppProps) {
         withGlobalStyles
         withNormalizeCSS
         theme={{
-          colorScheme:'dark',
-      }}>
+          globalStyles: (theme) => ({
+            '*, *::before, *::after': {
+              boxSizing: 'border-box',
+            },
+
+            '.profile-image': {
+              float: 'left',
+              margin: '4px',
+            },
+          }),
+          colorScheme: "dark",
+        }}
+      >
         <Component {...pageProps}/>
       </MantineProvider>
     </>

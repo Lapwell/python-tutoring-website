@@ -100,14 +100,6 @@ a {
   text-decoration: none;
 }
 
-.mantine-qqmv3w.mantine-Image-imageWrapper {
-  float: left;
-}
-
-.mantine-Text-root.mantine-ljqvxq {
-  float: none;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
