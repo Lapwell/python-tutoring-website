@@ -16,18 +16,22 @@ export default function App(props: AppProps) {
         theme={{
           globalStyles: (theme) => ({
             '*, *::before, *::after': {
-              boxSizing: 'border-box',
+              oxSizing: 'border-box',
+              fontSize: '16px'
             },
 
             '.profile-image': {
               float: 'left',
-              margin: '4px',
+              marginRight: '4px'
             },
+            '.h3': {
+              color: 'red'
+            }
           }),
           colorScheme: "dark",
         }}
       >
-        <Component {...pageProps}/>
+      <Component {...pageProps}/>
       </MantineProvider>
     </>
   )

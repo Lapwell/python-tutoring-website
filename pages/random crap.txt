@@ -1,0 +1,13 @@
+<Popover position='bottom' withArrow>
+                <Popover.Target><Button>Contacts</Button></Popover.Target>
+                <Popover.Dropdown>
+                  <Button component='a' target='_blank' href='https://twitter.com/Byron__Corbett'>Twitter</Button>
+                  <CopyButton value='byronc@pythontutoring.ca'>
+                    {({copied, copy}) => (
+                      <Button color={copied ? 'teal' : 'blue'} onClick={copy}>
+                        {copied ? 'Copied' : 'Copy Email'}
+                      </Button>
+                    )}
+                  </CopyButton>
+                </Popover.Dropdown>
+              </Popover>
