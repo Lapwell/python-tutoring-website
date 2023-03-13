@@ -4,6 +4,7 @@
   padding: 1rem;
   min-height: 100vh;
   color: white;
+  white-space: pre-line;
 }
 
 /* Enable hover only on non-touch devices */
