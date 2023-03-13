@@ -49,11 +49,11 @@ export default function Home() {
               <Image src="profilepic.jpg" alt="Photo of me" width={152} height={152} radius="md"/>
               <h3>Hello! I'm Byron,</h3>
               <Text>
-                I'm a local born here in the Westshore area. I work at an awesome local tech company that teaches kids programming and STEM
-                while pursuing education and personal goals in life. My passions and interests revolve around computers, science, video games and technology in general.
+                I'm a local, born here in the Westshore area. I work at an awesome local tech company that teaches kids programming and STEM
+                while pursuing education and personal goals in life. My passions and interests revolve around computers, science, video games, and technology in general.
                 <br/><br/>
                 I have been self-teaching coding for 2 years now, and have some projects under my belt. I'm looking to sharpen my skills by helping
-                those in the community either start their coding journey, or better understand the coding spehere.
+                those in the community either start their coding journey, or better understand the coding sphere.
               </Text>
             </Container>
           </SimpleGrid>
